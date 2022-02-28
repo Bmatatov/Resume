@@ -1,24 +1,37 @@
 body{
+    border: solid;
+    border-width: thick;
+    background-color: blue;
     color: rgb(255, 255, 255);
     background: no-repeat url("https://images.ctfassets.net/177v1kh0db6l/1CfpfdU66FdG4clvtrlCEg/b250352891ba0e4804c5932b24f5a7a8/21011520_StarWarsProject_Snowdrop_Website_Starfield_1080x608.png");
     background-size: 200em;
-    margin: auto;
+    margin: 10em;
     font: medium;
     font-style: times;
     text-align: center;
+    padding: 0em;
+}
+div#header{
+    padding: auto;
+    background-color: aqua;
 }
 div#contact {
     color:rgba(255, 255, 255, 0.979);
     margin: 0%;
     margin-left: auto;
+    padding-bottom: 1em;
 }
 h2{
     color: rgb(255, 255, 255);
 }
 div#content {
-    padding: 15em;
+    padding: 10em;
     padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
     margin: auto;
+    columns: 4;
 }
 ul{
     list-style: none;
