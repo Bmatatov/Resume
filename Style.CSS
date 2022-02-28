@@ -1,8 +1,38 @@
 body{
-    background-color: black;
     color: rgb(250, 225, 0);
+    background: no-repeat url("https://images.ctfassets.net/177v1kh0db6l/1CfpfdU66FdG4clvtrlCEg/b250352891ba0e4804c5932b24f5a7a8/21011520_StarWarsProject_Snowdrop_Website_Starfield_1080x608.png");
+    background-size: 200em;
+    animation: .5s linear 1s infinite alternate slidein;
 }
-
+div#headshot{
+    justify-content: right;
+    padding: 0%;
+    width: min-content;
+    inline-size: min-content;
+    height: min-content;
+    block-size: min-content;
+    margin-left: 80%;
+    margin: 0%;
+}
+div#contact {
+    color:aqua;
+    text-align: left;
+}
+h2{
+    color: aqua;
+}
 div#content {
     text-align: center;
+    padding: 15em;
+    padding-top: 0em;
+    margin: 0%;
+}
+ul{
+    list-style: none;
+}
+hr{
+    color: red;
+}
+div#header{
+    margin: 0%;
 }
